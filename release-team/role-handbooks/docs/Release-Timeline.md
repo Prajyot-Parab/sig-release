@@ -118,7 +118,7 @@ These steps take approximately one hour to complete, and should be completed imm
     - [kubernetes-release-team-shadows](https://groups.google.com/a/kubernetes.io/g/release-team-shadows)
         - ⚠️  List of members for this group is managed in git. Please create a PR against `kuberenetes/sig-release` repo to include your email under `release-team-shadows` group in [`sig-release/group.yaml`](https://github.com/kubernetes/k8s.io/blob/main/groups/sig-release/groups.yaml)
 
-Early in the release cycle, the Enhancements Lead opens a Github Project, e.g: [the 1.26 Enhancement Tracking](https://github.com/orgs/kubernetes/projects/98/views/1). Later in the release this spreadsheet will contain important information for docs, check the Docs view [here](https://github.com/orgs/kubernetes/projects/98/views/6):
+Early in the release cycle, the Enhancements Lead creates a GitHub Project for release tracking, for example the [v1.37 Release Tracking board](https://github.com/orgs/kubernetes/projects/264). Later in the cycle, this board contains important information for Docs; see the [Docs view](https://github.com/orgs/kubernetes/projects/264/views/3).
 
 - Which enhancements we'll be tracking for this release
 - Feature owners (and their GitHub IDs)
@@ -324,7 +324,7 @@ The middle weeks of the launch are where the Docs Lead and Docs Lead Shadows tra
 
 Track PRs based on the enhancement (KEP) spreadsheet.
 
-Keep the enhancement tracking spreadsheet up to date with review progress and merge status for each documentation PR. For example: [Kubernetes Enhancements OSS tracking board (1.21 release)](http://bit.ly/k8s121-enhancements)
+Keep the release tracking board up to date with review progress and merge status for each documentation PR. For example: [v1.37 Release Tracking board](https://github.com/orgs/kubernetes/projects/264).
 
 ⚠️ Assign the enhancements evenly across your Shadows after the enhancement freeze. Assigning shadows before the
  enhancement freeze will cause unexpected behavior in the tracking spreadsheet due to frequent updates to dynamic data.
@@ -565,7 +565,7 @@ Also review each PR for:
 - Review PR commit histories, and make sure that PR commit histories contain only changes to files. It's especially important to **avoid revert commits**. Encourage developers to rebase any PRs with complicated commit histories.
 - Check that the PR has a technical LGTM.
 - KEP reviewers and approvers can provide a technical review or delegate appropriatley. KEP reviewers and approvers are usually listed in the [kep.yaml e.g.](https://github.com/kubernetes/enhancements/blob/master/keps/sig-architecture/1194-prod-readiness/kep.yaml)
-- If no LGTM, assign `sig/*` labels (listed in the enhancement tracking spreadsheet) to help find technical reviewers.
+- If there is no LGTM, assign the relevant `sig/*` labels listed in the release tracking board to help find technical reviewers.
 
 #### Style Guide Checklist (High to Low Level)
 

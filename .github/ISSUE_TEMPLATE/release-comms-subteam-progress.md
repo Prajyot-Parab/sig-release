@@ -65,7 +65,7 @@ As of Monday, xx January (week 1):
 
 - [v1.XX Schedule and Information](https://github.com/kubernetes/sig-release/blob/master/releases/release-1.XX/README.md)
 - [Templates for various reach-out / drafts](https://github.com/kubernetes/sig-release/tree/master/release-team/role-handbooks/communications/templates)
-- Enhancement Tracking Board: _(TBC)_
+- Release Tracking Board: _(TBC)_
 - **Mid Cycle Blog**
   - Comms team internal draft: _(TBC)_
   - PR for official blog: _(TBC)_

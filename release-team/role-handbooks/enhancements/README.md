@@ -18,7 +18,7 @@
   - [PRR Reviews](#prr-reviews)
   - [Enhancement KEP Status](#enhancement-kep-status)
   - [What Changes Require Tracking](#what-changes-require-tracking)
-  - [Working with the Enhancement Tracking Board](#working-with-the-enhancement-tracking-board)
+  - [Working with the Release Tracking Board](#working-with-the-release-tracking-board)
   - [Pre-Freeze Check: Catching untracked feature changes](#pre-freeze-check-catching-untracked-feature-changes)
   - [Understanding Test Freeze](#understanding-test-freeze)
   - [Release Team Meeting Updates](#release-team-meeting-updates)
@@ -107,7 +107,7 @@ The shadows should be selected keeping in mind that one of them may eventually b
 
 Ensure that the previous Enhancements Lead has given you access to:
 
-- The previous Kubernetes release enhancements tracking board.
+- The previous Kubernetes release tracking board.
 
 Ensure that you and the shadows are part of the [Kubernetes org](https://github.com/kubernetes/community/blob/main/community-membership.md#member) and have been added to:
 
@@ -228,9 +228,9 @@ The team will collaborate with the KEP authors to ensure that any outstanding ex
 
 Please contact SIG Release on Slack if there is any uncertainty regarding whether the planned action meets the threshold for required tracking.
 
-### Working with the Enhancement Tracking Board
+### Working with the Release Tracking Board
 
-The Enhancements Tracking Board is used by the release-enhancements, release-docs, release-comms, and PRR teams.
+The Release Tracking Board is used by the release-enhancements, release-docs, release-comms, and PRR teams.
 Information in this document will be focused on how the Enhancements team should interact with the project board.
 
 #### Enhancements View
@@ -548,11 +548,11 @@ At the beginning of the release cycle, we reach out to each SIG reminding them t
 
 #### Before PRR Freeze
 
-- Monitor the Enhancements Tracking Board for new additions (as SIGs may opt-in KEPs for the release up until the deadline), and assign an `Enhancements Contact` to each issue.
+- Monitor the Release Tracking Board for new additions (as SIGs may opt-in KEPs for the release up until the deadline), and assign an `Enhancements Contact` to each issue.
 - For opted-in issues periodically (a few times a week, increasing to daily closer to the deadlines):
   - Ensure issue is in the current milestone
   - Ensure issue has correct labels (`stage/xxx` is accurate, etc.)
-  - Ensure the `SIG`, `Stage`, and `Enhancement Type` Fields in the Enhancement Tracking Board are populated and accurate
+  - Ensure the `SIG`, `Stage`, and `Enhancement Type` Fields in the Release Tracking Board are populated and accurate
   - Evaluate if the enhancement satisfies all the [PRR Freeze requirements](/releases/release_phases.md#prr-freeze) for inclusion in the current release.
     - Comment on the issue using one of the [PRR Freeze communication templates](./communication-templates.md#prr-freeze-templates)
     - Update the issue `Status` to either `Tracked for PRR freeze` or `At risk for PRR freeze` on the tracking board
